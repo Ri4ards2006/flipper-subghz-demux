@@ -1,0 +1,23 @@
+# Secrets & environment
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.crt
+
+# Go binaries & test artifacts
+/bin/
+/dist/
+/flipper-subghz-demux
+*.exe
+*.test
+*.out
+coverage.txt
+
+# OS & editor clutter
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
